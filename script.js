@@ -1,5 +1,5 @@
 let beatles = ['John', 'Paul', 'George', 'Ringo']
-beatles[11] = "the cool beatle";
+beatles[5] = "the cool beatle";
 document.getElementById('original').innerHTML = beatles
 beatles[4] = "Tiziano";
 
@@ -25,8 +25,8 @@ for(let i = 0; i <= 5; i++){
 
 // Exercise 4 
 
- beatles
- beatles[10] = "The Biggest Beatle";
+ //beatles[10] = "The Biggest Beatle";
+ beatles.push('The Biggest Beatle')
  document.getElementById("array-ex4").innerHTML = "";
  for(let i = 0; i < beatles.length; i++){
     if(beatles[i] != null){
