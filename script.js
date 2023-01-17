@@ -36,7 +36,7 @@ for(let i = 0; i <= 5; i++){
     
 // Exercise 5
 
-document.getElementById("array-ex5").innerHTML = "The array has a length of: " + beatles.length;
+document.getElementById("array-ex5").innerHTML = `The array has a length of: ${beatles.length}`;
 
 // Exercise 6
 
